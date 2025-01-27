@@ -8,9 +8,7 @@ function Doctor({ doctor }) {
       className="card p-2 cursor-pointer"
       onClick={() => navigate(`/book-appointment/${doctor._id}`)}
     >
-      <h1 className="card-title">
-        {doctor.firstName} {doctor.lastName}
-      </h1>
+      <h1 className="card-title"> Dr. {doctor.firstName} {doctor.lastName} </h1>
       <hr />
       <p>
         <b>Phone Number : </b>

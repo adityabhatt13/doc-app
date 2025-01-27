@@ -112,6 +112,7 @@ router.post("/apply-doctor-account", authMiddleware, async (req, res) => {
     });
   }
 });
+
 router.post(
   "/mark-all-notifications-as-seen",
   authMiddleware,
